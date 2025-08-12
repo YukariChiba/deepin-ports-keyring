@@ -1,0 +1,15 @@
+Source: deepin-ports-keyring
+Section: misc
+Priority: optional
+Maintainer: Yukari Chiba <i@0x7f.cc>
+Build-Depends: debhelper (>= 7), gnupg
+Standards-Version: 4.6.2.0
+
+Package: deepin-ports-keyring
+Priority: important
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, gpgv
+Description: GnuPG keys of the deepin-ports archive
+ The deepin-ports project digitally signs its Release files.
+ This package contains the archive keys used for that.

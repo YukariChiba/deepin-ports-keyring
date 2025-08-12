@@ -1,0 +1,2 @@
+keyrings/deepin-ports-yukarichiba.gpg /usr/share/keyrings/
+keyrings/deepin-ports-yukarichiba.gpg /etc/apt/trusted.gpg.d/
